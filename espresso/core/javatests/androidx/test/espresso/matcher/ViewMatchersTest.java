@@ -940,6 +940,7 @@ public class ViewMatchersTest {
     parent.addView(v2);
     parent.addView(v3);
     assertTrue(hasSibling(withText("Bill Odama")).matches(v2));
+    assertFalse(hasSibling(withText("Bill Odama")).matches(v1));
     assertFalse(hasSibling(is(v3)).matches(parent));
   }
 
