@@ -22,8 +22,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.Log;
 import androidx.test.internal.runner.RunnerArgs;
-import androidx.test.internal.runner.tracker.UsageTracker;
-import androidx.test.internal.runner.tracker.UsageTrackerRegistry;
+import androidx.test.internal.tracker.UsageTracker;
+import androidx.test.internal.tracker.UsageTrackerRegistry;
 
 /**
  * Helper class to enable/disable usage tracker in the runner. For details on how AndroidJUnitRunner

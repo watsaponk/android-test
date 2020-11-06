@@ -20,8 +20,8 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 import androidx.test.espresso.base.ActiveRootLister;
 import androidx.test.internal.platform.util.TestOutputEmitter;
-import androidx.test.internal.runner.tracker.UsageTrackerRegistry;
-import androidx.test.internal.runner.tracker.UsageTrackerRegistry.AxtVersions;
+import androidx.test.internal.tracker.UsageTrackerRegistry;
+import androidx.test.internal.tracker.UsageTrackerRegistry.AxtVersions;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;

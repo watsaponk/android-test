@@ -25,7 +25,7 @@ import static org.mockito.Mockito.verify;
 import android.os.Bundle;
 import androidx.test.InstrumentationRegistry;
 import androidx.test.internal.runner.RunnerArgs;
-import androidx.test.internal.runner.tracker.UsageTracker;
+import androidx.test.internal.tracker.UsageTracker;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
